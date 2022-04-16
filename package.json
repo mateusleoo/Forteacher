@@ -1,0 +1,17 @@
+{
+  "name": "forteatcher",
+  "version": "0.0.1",
+  "description": "Application for teatchers ",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx Live-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Mateus Leonardo",
+  "license": "ISC"
+}

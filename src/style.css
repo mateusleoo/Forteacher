@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto&display=swap');
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    --color-copy: #222;
+    --color-primary:#ED9053;
+    --color-secundary: #fff;
+    --color-btn: #4F3434;
+    --default-padding: 1rem;
+    color: var(--color-copy);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+
+.navbar_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 9fr;
+    align-items: center;
+    width: 100vh;
+    height: 9rem;
+    padding: 1rem 1.168rem;
+}
+
+.navbar_links{
+    background-color: #fff;
+    border-radius: 90px;
+    margin-bottom: -4rem;
+}
+
+.navbar_links li {
+    padding: .7rem;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar_links a {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #663333;
+    text-decoration: none;
+}
+
+.navbar_links a:hover {
+    color: var(--color-primary);
+}
+
+.navbar_container img {
+    margin-left: 20rem;
+    padding-right: 0;
+}
+
+.navbar_container h1 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 32rem;
+    color: var(--color-copy);
+    text-align: left;
+    white-space: nowrap;
+}
+
+.navbar-copy {
+    font-size: 1rem;
+}
+
+.slider {
+    margin-top: 11rem;
+    position: fixed;
+    background-color: #4F3434;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slider_box {
+    display: flex;
+    align-items: center;
+    padding: 20rem 25rem;
+}
+
+.slider_box {
+    margin-top: -6rem;
+    margin-left: 2rem;
+}
+
+#slider_calendar {
+    background-color: var(--color-secundary);
+    padding: 10rem 10rem;
+    border-radius: 90px;
+}
+
+
+.slider_photo {
+    background-color: var(--color-secundary);
+    padding: 12rem 12rem;
+    margin-left: 2rem;
+    border-radius: 90px;
+}
+
+.btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 500;
+    background: var(--color-primary);
+    border-radius: 80px;
+    border: unset;
+}
+
+.btn_photo:hover {
+    color: var(--color-primary);
+    background: var(--color-btn);
+    box-shadow: 0 1rem 1rem #0006;
+}
+
+
+
+
